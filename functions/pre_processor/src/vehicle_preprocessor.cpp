@@ -20,6 +20,8 @@ namespace ns_preprocessor {
     std::cout << "Accaceration_longitudinal_mpss :" << vsd->Accaceration_longitudinal_mpss << std::endl;
   };
 
+
+
   //修正了纵向加速度和速度，记录需要的数据
   void preprocessor::VehSelfSpdCompensation(VehSelf_t* vsd )
   {
